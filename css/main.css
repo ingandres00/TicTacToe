@@ -1,0 +1,15 @@
+
+body{
+  display: block;
+  margin: 8px;
+}
+
+form {
+  border: 10px; solid #000000;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
