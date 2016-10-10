@@ -1,15 +1,32 @@
-
-body{
-  display: block;
-  margin: 8px;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-form {
-  border: 10px; solid #000000;
-  position: absolute;
+
+
+header{
+  background-color: #black;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-style: oblique;
+}
+
+
+style.tictac{
   margin: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  width: 200px;
+  position: relative;
+  transform: translateX(200%);
+  transform: translateZ(300%);
+
+}
+
+html, body{
+  height: 100%;
+  min-height: 100%
 }
